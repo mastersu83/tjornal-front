@@ -1,0 +1,33 @@
+.profile {
+  padding: 20px 20px 0;
+  margin-bottom: 30px;
+  &__infoTop {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__infoBottom {
+    display: flex;
+    margin: 10px 0;
+  }
+  &__view {
+    font-weight: bold !important;
+    color: #35ab66;
+    margin-right: 15px !important;
+  }
+  &__content {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+  &__followers {
+    width: 300px;
+    padding: 20px;
+  }
+  &__followerList {
+    margin-top: 15px;
+    display: flex;
+    column-gap: 15px;
+    row-gap: 15px;
+    flex-wrap: wrap;
+  }
+}

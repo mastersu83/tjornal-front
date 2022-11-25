@@ -1,0 +1,27 @@
+{
+  "name": "tjornal-front",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@editorjs/editorjs": "^2.25.0",
+    "@hookform/resolvers": "^2.9.10",
+    "@material-ui/core": "^4.12.4",
+    "@material-ui/icons": "^4.11.3",
+    "@types/node": "18.11.9",
+    "@types/react": "18.0.25",
+    "@types/react-dom": "18.0.8",
+    "next": "13.0.2",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-hook-form": "^7.39.5",
+    "sass": "^1.56.0",
+    "typescript": "4.8.4",
+    "yup": "^0.32.11"
+  }
+}
